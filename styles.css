@@ -33,9 +33,6 @@ a {
     background-color: rgb(104, 10, 122);
 }
 
-#logo-barber-studio-2-0 {
-    border-radius: 20px;
-}
 
 .navbar-color {
     font-size: 15pt;
@@ -76,11 +73,11 @@ a {
 
 
 .container-center p {
-    max-width: 200%; /* Limita a largura do texto */
-    margin: 20px;
+    border: solid 5px rgb(104, 10, 122);
+    margin: 50px;
     padding: 5px; /* Adiciona espaçamento interno */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para estética */
-    border-radius: 8px; /* Bordas arredondadas */
+    border-radius: 20px;
     text-align: justify;
     text-indent: 3em;
     text-align: justify; 
@@ -116,7 +113,7 @@ a {
 
 .text-image-container {
     flex: 1; /* O texto ocupa o restante do espaço */
-    max-width: 90%; /* Limita o tamanho máximo do texto */
+    max-width: 100%; /* Limita o tamanho máximo do texto */
 }
 
 .container-img {
@@ -129,7 +126,7 @@ a {
 }
 
 .image {
-    max-width:40%; /* Faz a imagem se ajustar ao tamanho do seu container */
+    max-width: 70%; /* Faz a imagem se ajustar ao tamanho do seu container */
     height: auto; /* Mantém a proporção da imagem */
 }
 
@@ -142,6 +139,10 @@ a {
 .footer-item {
     padding: 20px;
 }
+
+
+
+
 
 main {
     padding: 2rem;
