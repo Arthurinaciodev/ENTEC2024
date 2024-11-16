@@ -86,16 +86,6 @@ a {
     text-align: justify; 
 }
 
-.image-container {
-    max-width: 300px; /* Largura máxima para a imagem */
-    height: auto;
-}
-
-.image-container img {
-    max-width: 100%; /* Faz a imagem se ajustar ao contêiner */
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para estética */
-}
 
 #logo_entec2024 {
     float: right; /* Posiciona a imagem à direita */
@@ -115,8 +105,7 @@ a {
 }
 
 .text-image-container {
-    flex: 1; /* O texto ocupa o restante do espaço */
-    max-width: 90%; /* Limita o tamanho máximo do texto */
+    display: flex;
 }
 
 .container-img {
