@@ -65,54 +65,85 @@ a {
 .container-center p {
     border: solid 5px rgb(104, 10, 122);
     margin: 30px;
-    padding: 5px; /* Adiciona espaçamento interno */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para estética */
+    padding: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
     text-align: justify;
     text-indent: 3em;
     text-align: justify; 
 }
 
-/* Estilos para centralizar o conteúdo */
 .container-center {
     display: flex;
-    flex-direction: column; /* Empilha os elementos (texto e imagem) */
-    align-items: center;    /* Centraliza horizontalmente */
-    justify-content: center; /* Centraliza verticalmente */
-    text-align: center;      /* Centraliza o texto dentro dos elementos */
-    min-height: 100vh;       /* Garante que o conteúdo ocupe toda a altura da janela */
-    padding: 20px;           /* Adiciona espaçamento interno */
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center; 
+    text-align: center;      
+    min-height: 100vh;       
+    padding: 20px;           
   }
   
   .text-image-container {
-    max-width: 800px; /* Limita a largura máxima do texto */
-    margin-bottom: 20px; /* Espaçamento entre texto e imagem */
+    max-width: 800px; 
+    margin-bottom: 20px; 
   }
   
   .container-img .image {
-    max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner */
-    height: auto;    /* Mantém as proporções da imagem */
+    max-width: 100%; 
+    height: auto;    
   }
   
-  /* Ajustes para dispositivos menores */
   @media (max-width: 768px) {
     .text-image-container {
-      margin-bottom: 15px; /* Reduz o espaçamento em telas pequenas */
+      margin-bottom: 15px; 
     }
   }
   
 
 #logo_entec2024 {
-    float: right; /* Posiciona a imagem à direita */
-    width: 50%; /* Define a largura da imagem */
-    max-height: 300px; /* Define uma altura máxima */
-    margin-left: 10px; /* Espaço entre o texto e a imagem */
-    border-radius: 50%; /* Bordas arredondadas */
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    float: right;
+    width: 50%; 
+    max-height: 300px; 
+    margin-left: 10px; 
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .footer-item {
     padding: 20px;
+}
+
+
+footer {
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: flex-start; 
+    padding: 10px;
+    background-color: rgb(104, 10, 122)
+}
+
+.footer-item {
+    border-radius: 30px;
+    background-color:rgb(0, 0, 0);
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.footer-item img {
+    margin-top: 10px;
+}
+
+.footer-item a {
+    margin-top: 5px;
+    color: #007BFF; 
+    text-decoration: none;
+}
+
+.footer-item a:hover {
+    text-decoration: underline;
 }
 
 
